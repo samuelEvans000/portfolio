@@ -1,0 +1,112 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.contactLine {
+  width: 30%;
+  border: 2px solid #752de9;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.form input,
+.form textarea {
+  width: -webkit-fill-available;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 1rem;
+  color: #000;
+  font-family: "syne", sans-serif;
+}
+
+.form textarea {
+  height: -webkit-fill-available;
+}
+
+.form button {
+  background-color: #752de9;
+  padding: 0.5rem 3rem;
+}
+
+.formImg {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formImg img {
+  width: 90%;
+  border-radius: 20px;
+}
+
+.popup {
+  position: fixed;
+  top: 5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1rem 2rem;
+  z-index: 5000;
+  background-color: #752de9;
+}
+
+.empty {
+  background-color: #752de9 !important;
+}
+
+.error {
+  background-color: red;
+}
+
+.success {
+  background-color: rgb(46, 212, 46);
+}
+
+@media only screen and (max-width: 900px) {
+  .contact {
+    margin-bottom: 4rem;
+  }
+  .formImg {
+    display: none;
+  }
+
+  .form {
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/profile.png");
+    background-size: 100% 100%;
+    width: 90%;
+    border-radius: 20px;
+  }
+  .form form {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .form form {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

@@ -1,0 +1,44 @@
+.social{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* gap: 1rem; */
+    position: fixed;
+    top: 40%;
+    right: 0;
+    /* z-index: -1; */
+}
+
+.sicon1, .sicon2, .sicon3, .sicon4{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sicon1{
+    background-color: #9e43e8;
+}
+.sicon2{
+    background-color: #0077B5;
+}
+.sicon2 img{
+    width: 80%;
+}
+.sicon3{
+    background-color: black;
+}
+.sicon4{
+    background-color: #e61cbd;
+}
+
+@media only screen and (max-width:500px) {
+    .social{
+        width: 40px;
+    }
+.sicon1, .sicon2, .sicon3, .sicon4{
+width: 40px;
+height: 40px;
+}
+}

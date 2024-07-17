@@ -1,0 +1,60 @@
+.tech {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+}
+
+.title {
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.Techline {
+  border: 1px solid #0a7de9 ;
+  width: 40%;
+  margin-bottom: 4rem;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 3rem;
+}
+.sub-titles {
+  width: 90%;
+  font-size: 28px !important;
+}
+
+.languages {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.languages img {
+  width: 150px;
+}
+
+@media only screen and (max-width:900px){
+
+  .title{
+    font-size: 32px;
+  }
+
+  .sub-titles h2{
+    font-size: 24px;
+  }
+
+  .languages img{
+    width: 80px;
+  }
+}
