@@ -54,7 +54,7 @@ const Contact = () => {
         contact: "",
         message: "",
       });
-      const response = await axios.post("https://email-server-fawn.vercel.app/send", formData)
+      const response = await axios.post("https://emailserver-e3m0.onrender.com/send", formData)
     } catch (error) {
       setPopupMessage("Failed to send, Please try again.");
       setShowPopup(true);
