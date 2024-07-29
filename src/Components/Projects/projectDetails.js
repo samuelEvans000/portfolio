@@ -4,14 +4,14 @@ export const projectDetails = [
         title:"Wild Life Conservation",
         desc:"This is an Hackathon winning project, In simple terms this is an AI website which detects the animals, employee's, intruders and send images to the admin's mail.",
         git:"https://github.com/samuelEvans000/Wildlife-Conservation-Project",
-        deployed:"/blank"
+        deployed:"#/blank"
     },
     {
         img: "/assets/Attendance.png",
         title:"Attendance System",
         desc:"This project uses AI recognition model to mark the student attendance in live or photo document or video uploaded or guided by admin through login authentication.",
         git:"https://github.com/samuelEvans000/Attendance-System",
-        deployed:"/blank"
+        deployed:"#/blank"
     },
     {
         img: "/assets/bhoomi.png",
